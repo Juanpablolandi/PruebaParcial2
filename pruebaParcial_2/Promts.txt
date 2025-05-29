@@ -1,0 +1,186 @@
+Pronts:
+1) El problema es el siguiente: Tengo que simular un torneo de tenis con 16 jugadores, 
+cada jugador se tiene que enfrentar simultaneamente a otro en el cual el ganador se de de forma aleatoria, 
+el ganador se determina al mejor de tres y se utilizara la funcion random con un booleano para poder determinar el ganador, 
+si el random sale true se asignara un punto a un trabajor, si el random es false se le asginara el punto al otro jugador, 
+se jugara desde los octavos de final asi que cada encuentro que tenga un ganador tiene que devolver el ganador para poder 
+generar el encuentro de la siguiente fase hasta jugar la final, participan los 16 jugadores enumerados del 1 al 16, las 
+rondas se juegan en simultaneo y la siguiente solo comienza cuando todos los partidos de la ronda actual han terminado, 
+cada partido se juega maximo 3 sets, se debe utilizar la interfaz callable y future en el lenguaje de java version 24, 
+la salida del siguiente programa se debera ver de la siguiente manera: 
+===== OCTAVOS DE FINAL =====
+Jugador 1 vs Jugador 16
+Set 1: Jugador 16
+Set 2: Jugador 1
+Set 3: Jugador 1
+Ganador del partido: Jugador 1
+
+Jugador 2 vs Jugador 15
+Set 1: Jugador 2
+Set 2: Jugador 2
+Ganador del partido: Jugador 2
+
+Jugador 3 vs Jugador 14
+Set 1: Jugador 3
+Set 2: Jugador 14
+Set 3: Jugador 14
+Ganador del partido: Jugador 14
+
+Jugador 4 vs Jugador 13
+Set 1: Jugador 4
+Set 2: Jugador 13
+Set 3: Jugador 4
+Ganador del partido: Jugador 4
+
+Jugador 5 vs Jugador 12
+Set 1: Jugador 12
+Set 2: Jugador 12
+Ganador del partido: Jugador 12
+
+Jugador 6 vs Jugador 11
+Set 1: Jugador 11
+Set 2: Jugador 6
+Set 3: Jugador 6
+Ganador del partido: Jugador 6
+
+Jugador 7 vs Jugador 10
+Set 1: Jugador 10
+Set 2: Jugador 7
+Set 3: Jugador 10
+Ganador del partido: Jugador 10
+
+Jugador 8 vs Jugador 9
+Set 1: Jugador 8
+Set 2: Jugador 8
+Ganador del partido: Jugador 8
+
+===== CUARTOS DE FINAL =====
+Jugador 1 vs Jugador 2
+Set 1: Jugador 1
+Set 2: Jugador 1
+Ganador del partido: Jugador 1
+
+Jugador 14 vs Jugador 4
+Set 1: Jugador 14
+Set 2: Jugador 4
+Set 3: Jugador 14
+Ganador del partido: Jugador 14
+
+Jugador 12 vs Jugador 6
+Set 1: Jugador 6
+Set 2: Jugador 6
+Ganador del partido: Jugador 6
+
+Jugador 10 vs Jugador 8
+Set 1: Jugador 8
+Set 2: Jugador 10
+Set 3: Jugador 10
+Ganador del partido: Jugador 10
+
+===== SEMIFINAL =====
+Jugador 1 vs Jugador 14
+Set 1: Jugador 14
+Set 2: Jugador 1
+Set 3: Jugador 1
+Ganador del partido: Jugador 1
+
+Jugador 6 vs Jugador 10
+Set 1: Jugador 10
+Set 2: Jugador 6
+Set 3: Jugador 6
+Ganador del partido: Jugador 6
+
+===== FINAL =====
+Jugador 1 vs Jugador 6
+Set 1: Jugador 6
+Set 2: Jugador 6
+Ganador del partido: Jugador 6
+
+🏆 ¡Campeón del torneo: Jugador 6!, da la solucion con una clase de jugador, otra clase la cual sera 
+para simular los juegos que implemente callable y con funciones no tan avanzadas.
+
+2) ===== OCTAVOS DE FINAL =====
+Jugador 3 vs Jugador 4
+Jugador 1 vs Jugador 2
+Jugador 5 vs Jugador 6
+Jugador 7 vs Jugador 8
+Jugador 11 vs Jugador 12
+Jugador 9 vs Jugador 10
+Jugador 15 vs Jugador 16
+Jugador 13 vs Jugador 14
+Set 1: Jugador 8
+Set 1: Jugador 2
+Set 1: Jugador 4
+Set 2: Jugador 8
+Set 1: Jugador 12
+Set 2: Jugador 4
+Set 2: Jugador 2
+Set 2: Jugador 11
+Set 1: Jugador 16
+Set 1: Jugador 9
+Set 1: Jugador 14
+Set 1: Jugador 5
+Set 2: Jugador 14
+Set 2: Jugador 9
+Set 2: Jugador 15
+Ganador del partido: Jugador 8
+Ganador del partido: Jugador 2
+
+Ganador del partido: Jugador 4
+
+Set 3: Jugador 12
+
+Set 3: Jugador 15
+Ganador del partido: Jugador 9
+
+Ganador del partido: Jugador 14
+
+Set 2: Jugador 5
+Ganador del partido: Jugador 15
+
+Ganador del partido: Jugador 12
+
+Ganador del partido: Jugador 5
+
+===== CUARTOS DE FINAL =====
+Jugador 2 vs Jugador 4
+Set 1: Jugador 2
+Set 2: Jugador 2
+Ganador del partido: Jugador 2
+
+Jugador 5 vs Jugador 8
+Set 1: Jugador 8
+Set 2: Jugador 8
+Ganador del partido: Jugador 8
+
+Jugador 9 vs Jugador 12
+Set 1: Jugador 12
+Set 2: Jugador 9
+Set 3: Jugador 12
+Ganador del partido: Jugador 12
+
+Jugador 14 vs Jugador 15
+Set 1: Jugador 15
+Set 2: Jugador 15
+Ganador del partido: Jugador 15
+
+===== SEMIFINAL =====
+Jugador 2 vs Jugador 8
+Jugador 12 vs Jugador 15
+Set 1: Jugador 12
+Set 1: Jugador 2
+Set 2: Jugador 2
+Set 2: Jugador 15
+Ganador del partido: Jugador 2
+
+Set 3: Jugador 12
+Ganador del partido: Jugador 12
+
+===== FINAL =====
+Jugador 2 vs Jugador 12
+Set 1: Jugador 12
+Set 2: Jugador 2
+Set 3: Jugador 2
+Ganador del partido: Jugador 2
+
+🏆 ¡Campeón del torneo: Jugador 2! en los octavos de final se muestra de mala manera no cmo la antes mostrada
